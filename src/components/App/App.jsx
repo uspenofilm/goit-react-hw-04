@@ -64,7 +64,6 @@ export default function App() {
   }
 
   const onLoadMore = () => {
-    setQuery(query);
     setPage(page + 1);
   };
 
